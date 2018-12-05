@@ -68,7 +68,7 @@ header a:hover{
     border-bottom:20px solid #9B801E;
 
 }
-#showcase h1,#aboutshowcase h1, #projectsshowcase h1 {
+#showcase h1,#aboutshowcase h1, #projectsshowcase h1,#experienceshowcase h1 {
     margin-top:350px;
     font-family: fantasy ;
     color: black;
@@ -97,6 +97,15 @@ header a:hover{
     border-bottom:20px solid #9B801E;
     margin:auto;
 }
+#experienceshowcase{
+    min-height: 600px;
+    background: url("https://images.unsplash.com/photo-1505778276668-26b3ff7af103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1943&q=80") no-repeat 0 -500px ;
+    text-align: center;
+    color:#FFFFFF;
+    border-bottom:20px solid #9B801E;
+    margin:auto;
+}
+
 /* bio */
 #bio{
     width: 60%;
