@@ -68,7 +68,7 @@ header a:hover{
     border-bottom:20px solid #9B801E;
 
 }
-#showcase h1{
+#showcase h1,#aboutshowcase h1, #projectsshowcase h1 {
     margin-top:350px;
     font-family: fantasy ;
     color: black;
@@ -80,6 +80,28 @@ header a:hover{
 #showcase p{
     font-size: 20px;
     color: #000000;
+}
+#aboutshowcase{
+    min-height: 600px;
+    background: url("https://lh3.googleusercontent.com/IrlUxTuaI_YtbTBf7lX9p5nmUJQT9zzuQSJOGk-wsbyO4_EPURphVTRJcsNiC2V8Q2ZT102-5X4HeDa4LuCAsiP4nLgQ1FwlZFWgORkS-EHoGK07A9A09j0yxsNfcl-bsigruanSNOmZbt0zKjWuFf1PniVzPjOxLa6tKIF4rU-luYIPUTkhnQ5g-N097o_Z3p4Lv-5ripsbkyVShfWRag8bdGsICZplgqPtY-UZUx-w2eIPPV-TW3b8ZPX2pSc2Tzuuc31Upz1WNp3p3RchjndiwJN57_Vxy5KspH14GP-JiQ9_PJKxzgnt--Klvd6bECMYXr-p2GFKTivMD0uc6mvBwBgcXiktfXZT9gM879_pebxedan1iUNxe9UPF8jAZoxWIn-_RHvKf4ZQVyyc5YDg_IisYPF6PV2Wcim-XT6-Owrv9Ox2rsFHrq7au2Co8veP0-n0IcSMp9O57_QdqczTRQAyqHX7IUcRCVdO6r-CdTInPTZpMrv4X0T6i6JW-IX8-QZ9FyH_MpMpmzIIVm-FMFSYAzbPtgEryHydsolkIzVnQYPzZDjEdWikMlAOWbprWVxTejXj0CdX7bkaRoiMrTQjUs11FOdBbCTrk_fiy9Bs87sCudFANKd1_PX-9AHioYMKn4BjPV7JjaVng_e5=w2270-h1702-no") no-repeat 0 -120px ;
+    text-align: center;
+    color:white;
+    border-bottom:20px solid #9B801E;
+    margin:auto;
+}
+#projectsshowcase{
+    min-height: 600px;
+    background: url("https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3452&q=80") no-repeat -300px -1500px ;
+    text-align: center;
+    color:white;
+    border-bottom:20px solid #9B801E;
+    margin:auto;
+}
+/* bio */
+#bio{
+    width: 60%;
+    text-align: center;
+    margin:40px auto;
 }
 
 /* newsletter */
@@ -120,6 +142,22 @@ footer{
     padding: 20px;
     text-align: center;
 
+}
+.convert{
+    margin-top: 70px;
+    background-color: #565656;
+    color:white;   
+}
+.card{
+    padding: 10px;
+    /* margin:10px; */
+}
+#emailHelp{
+    color: #8F8F8F;
+
+}
+.btnn{
+    margin: auto;
 }
 
 
